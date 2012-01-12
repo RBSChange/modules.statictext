@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<script>
+  <binding fileName="modules/useractionlogger/persistentdocument/import/useractionlogger_binding.xml"/>
+  <actiondef modulename="statictext" actionname="insert.text" label="m.statictext.bo.useractionlogger.insert-text"/>
+  <actiondef modulename="statictext" actionname="activate.text" label="m.statictext.bo.useractionlogger.activate-text"/>
+  <actiondef modulename="statictext" actionname="updatetranslation.text" label="m.statictext.bo.useractionlogger.updatetranslation-text"/>
+  <actiondef modulename="statictext" actionname="update.text" label="m.statictext.bo.useractionlogger.update-text"/>
+  <actiondef modulename="statictext" actionname="insert.folder" label="m.statictext.bo.useractionlogger.insert-folder"/>
+  <actiondef modulename="statictext" actionname="deletelocalization.text" label="m.statictext.bo.useractionlogger.deletelocalization-text"/>
+  <actiondef modulename="statictext" actionname="delete.text" label="m.statictext.bo.useractionlogger.delete-text"/>
+  <actiondef modulename="statictext" actionname="deactivated.text" label="m.statictext.bo.useractionlogger.deactivated-text"/>
+  <actiondef modulename="statictext" actionname="reactivate.text" label="m.statictext.bo.useractionlogger.reactivate-text"/>
+  <actiondef modulename="statictext" actionname="savepermissions.rootfolder" label="m.statictext.bo.useractionlogger.savepermissions-rootfolder"/>
+  <actiondef modulename="statictext" actionname="update.folder" label="m.statictext.bo.useractionlogger.update-folder"/>
+  <actiondef modulename="statictext" actionname="savepermissions.folder" label="m.statictext.bo.useractionlogger.savepermissions-folder"/>
+  <actiondef modulename="statictext" actionname="move.folder" label="m.statictext.bo.useractionlogger.move-folder"/>
+</script>

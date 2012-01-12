@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<blocks>
+	<block type="modules_statictext_Text" icon="form" dropModels="modules_statictext/text" hidden="true">
+		<parameters>
+			<parameter name="cmpref" type="modules_statictext/text" />
+			<parameter name="showLabel" type="Boolean" default-value="false" />
+		</parameters>
+	</block>
+</blocks>
