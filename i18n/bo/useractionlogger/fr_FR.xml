@@ -26,4 +26,16 @@
   <key id="log-savepermissions-folder">log savepermissions folder</key>
   <key id="move-folder">move.folder {destinationlabel} {documentlabel}</key>
   <key id="log-move-folder">log move folder</key>
+  <key id="insert-htmlcode">insert.htmlcode {documentlabel}</key>
+  <key id="log-insert-htmlcode">log insert htmlcode</key>
+  <key id="update-htmlcode">update.htmlcode {documentlabel}</key>
+  <key id="log-update-htmlcode">log update htmlcode</key>
+  <key id="deactivated-htmlcode">deactivated.htmlcode {documentlabel}</key>
+  <key id="log-deactivated-htmlcode">log deactivated htmlcode</key>
+  <key id="reactivate-htmlcode">reactivate.htmlcode {documentlabel}</key>
+  <key id="log-reactivate-htmlcode">log reactivate htmlcode</key>
+  <key id="delete-htmlcode">delete.htmlcode {documentlabel}</key>
+  <key id="log-delete-htmlcode">log delete htmlcode</key>
+  <key id="move-htmlcode">move.htmlcode {destinationlabel} {documentlabel}</key>
+  <key id="log-move-htmlcode">log move htmlcode</key>
 </i18n>

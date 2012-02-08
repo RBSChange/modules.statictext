@@ -6,4 +6,9 @@
 			<parameter name="showLabel" type="Boolean" default-value="false" />
 		</parameters>
 	</block>
+	<block type="modules_statictext_Htmlcode" icon="form" dropModels="modules_statictext/htmlcode" hidden="true">
+		<parameters>
+			<parameter name="cmpref" type="modules_statictext/htmlcode" />
+		</parameters>
+	</block>
 </blocks>

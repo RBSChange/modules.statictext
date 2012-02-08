@@ -1,3 +1,6 @@
 treechildren::-moz-tree-image(modules_statictext_text){
 	list-style-image: url(/changeicons/small/statictext.png);
 }
+treechildren::-moz-tree-image(modules_statictext_htmlcode){
+	list-style-image: url(/changeicons/small/ui-hidden-field.png);
+}

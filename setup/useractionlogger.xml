@@ -14,4 +14,10 @@
   <actiondef modulename="statictext" actionname="update.folder" label="m.statictext.bo.useractionlogger.update-folder"/>
   <actiondef modulename="statictext" actionname="savepermissions.folder" label="m.statictext.bo.useractionlogger.savepermissions-folder"/>
   <actiondef modulename="statictext" actionname="move.folder" label="m.statictext.bo.useractionlogger.move-folder"/>
+  <actiondef modulename="statictext" actionname="insert.htmlcode" label="m.statictext.bo.useractionlogger.insert-htmlcode"/>
+  <actiondef modulename="statictext" actionname="update.htmlcode" label="m.statictext.bo.useractionlogger.update-htmlcode"/>
+  <actiondef modulename="statictext" actionname="deactivated.htmlcode" label="m.statictext.bo.useractionlogger.deactivated-htmlcode"/>
+  <actiondef modulename="statictext" actionname="reactivate.htmlcode" label="m.statictext.bo.useractionlogger.reactivate-htmlcode"/>
+  <actiondef modulename="statictext" actionname="delete.htmlcode" label="m.statictext.bo.useractionlogger.delete-htmlcode"/>
+  <actiondef modulename="statictext" actionname="move.htmlcode" label="m.statictext.bo.useractionlogger.move-htmlcode"/>
 </script>

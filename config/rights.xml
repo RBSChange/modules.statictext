@@ -4,6 +4,7 @@
     <document name="rootfolder"/>
     <document name="folder"/>
     <document name="text"/>
+    <document name="htmlcode"/>
   </actions>
   <roles>
     <role name="Admin">

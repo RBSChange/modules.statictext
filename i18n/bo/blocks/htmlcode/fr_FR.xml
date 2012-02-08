@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.statictext.bo.blocks.text" lcid="fr_FR">
+  <key id="title">Code HTML</key>
+  <key id="cmpref">Code HTML brute</key>
+  <key id="cmpref-help">Document de code HTML brute</key>  
+</i18n>

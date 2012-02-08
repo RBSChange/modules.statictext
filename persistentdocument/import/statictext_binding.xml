@@ -2,4 +2,5 @@
 <script>
   <binding fileName="modules/generic/persistentdocument/import/generic_binding.xml"/>
   <binding name="text" className="statictext_TextScriptDocumentElement"/>
+  <binding name="htmlcode" className="statictext_HtmlcodeScriptDocumentElement"/>
 </script>
