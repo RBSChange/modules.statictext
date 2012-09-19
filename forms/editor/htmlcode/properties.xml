@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <panel>
-  <section labeli18n="m.uixul.bo.doceditor.fieldsgroup.title">
-    <field name="label"/>
-    <field name="replaceI18nKey" />
-    <field name="text" type="longtext" cols="80" rows="25" class="template"/>
-  </section>
-  	<xul>
+	<section labeli18n="m.uixul.bo.doceditor.fieldsgroup.title">
+		<field name="label" />
+		<field name="replaceI18nKey" />
+		<field name="text" type="longtext" cols="80" rows="25" class="template" />
+	</section>
+	<xul>
 		<javascript>
 			<field name="templateCode">null</field>
-
 			<constructor><![CDATA[
 				this.extendMethod("fireInitializeComplete", this.initializeCompleteDocument);
 			]]></constructor>
-		
 			<method name="initializeCompleteDocument">
 				<parameter name="result" />
 				<body><![CDATA[
@@ -20,15 +18,14 @@
 				{
 					this.templateCode = true;
 					var metainfo = [
-						{label: "${transui:m.statictext.document.htmlcode.internaljs,ucf,js}", value:"<script type=\"text/javascript\" >\n//<![" + "CDATA[\n\n//]" + "]>\n</script>"},
-						{label: "${transui:m.statictext.document.htmlcode.externaljs,ucf,js}", value:"<script type=\"text/javascript\" src=\"http://\"></script>"},			
-						{label: "${transui:m.statictext.document.htmlcode.localkey,ucf,js}", value:"$" + "{" + "trans:m.MODULENAME.PATH.ID,ucf,[js|attr]}"}
+						{label: "${trans:m.statictext.document.htmlcode.internaljs,ucf,js}", value:"<script type=\"text/javascript\" >\n//<![" + "CDATA[\n\n//]" + "]>\n</script>"},
+						{label: "${trans:m.statictext.document.htmlcode.externaljs,ucf,js}", value:"<script type=\"text/javascript\" src=\"http://\"></script>"},			
+						{label: "${trans:m.statictext.document.htmlcode.localkey,ucf,js}", value:"$" + "{" + "trans:m.MODULENAME.PATH.ID,ucf,[js|attr]}"}
 					];
 					this.setMenuItems(metainfo, this.fields.text);
 				}
 				]]></body>
 			</method>
-			
 			<method name="setMenuItems">
 				<parameter name="metas" />
 				<parameter name="field" />

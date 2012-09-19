@@ -1,27 +1,9 @@
 <?php
 /**
- * statictext_TextService
- * @package modules.statictext
+ * @method statictext_ModuleService getInstance()
  */
 class statictext_TextService extends f_persistentdocument_DocumentService
 {
-	/**
-	 * @var statictext_TextService
-	 */
-	private static $instance;
-
-	/**
-	 * @return statictext_TextService
-	 */
-	public static function getInstance()
-	{
-		if (self::$instance === null)
-		{
-			self::$instance = self::getServiceClassInstance(get_class());
-		}
-		return self::$instance;
-	}
-
 	/**
 	 * @return statictext_persistentdocument_text
 	 */
@@ -38,7 +20,7 @@ class statictext_TextService extends f_persistentdocument_DocumentService
 	 */
 	public function createQuery()
 	{
-		return $this->pp->createQuery('modules_statictext/text');
+		return $this->getPersistentProvider()->createQuery('modules_statictext/text');
 	}
 	
 	/**
@@ -49,7 +31,7 @@ class statictext_TextService extends f_persistentdocument_DocumentService
 	 */
 	public function createStrictQuery()
 	{
-		return $this->pp->createQuery('modules_statictext/text', false);
+		return $this->getPersistentProvider()->createQuery('modules_statictext/text', false);
 	}
 		
 }

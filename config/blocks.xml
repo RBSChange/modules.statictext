@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <blocks>
 	<block type="modules_statictext_Text" icon="form" dropModels="modules_statictext/text" hidden="true">
 		<parameters>
-			<parameter name="cmpref" type="modules_statictext/text" />
+			<parameter name="cmpref" type="Document" document-type="modules_statictext/text" />
 			<parameter name="showLabel" type="Boolean" default-value="false" />
 		</parameters>
 	</block>
 	<block type="modules_statictext_Htmlcode" icon="form" dropModels="modules_statictext/htmlcode" hidden="true">
 		<parameters>
-			<parameter name="cmpref" type="modules_statictext/htmlcode" />
+			<parameter name="cmpref" type="Document" document-type="modules_statictext/htmlcode" />
 		</parameters>
 	</block>
 </blocks>

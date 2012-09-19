@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <i18n baseKey="m.statictext.document.htmlcode" lcid="fr_FR">
-  <include id="m.generic.document.document"/>
-  <key id="document-name">Code HTML brute</key>
-  <key id="text">Code HTML</key>
-  <key id="text-help">Code HTML à inclure directement dans une page</key>
-  <key id="replacei18nkey">Remplacement locales</key>
-  <key id="replacei18nkey-help">Remplacement des clés de localisation</key>
-  <key id="internaljs">Script javascript</key> 
-  <key id="externaljs">Script externe</key> 
-  <key id="localkey">Clé de locale</key>
+	<include id="m.generic.document.document" />
+	<key id="document-name">Code HTML brute</key>
+	<key id="text">Code HTML</key>
+	<key id="text-help">Code HTML à inclure directement dans une page</key>
+	<key id="replacei18nkey">Remplacement locales</key>
+	<key id="replacei18nkey-help">Remplacement des clés de localisation</key>
+	<key id="internaljs">Script javascript</key>
+	<key id="externaljs">Script externe</key>
+	<key id="localkey">Clé de locale</key>
 </i18n>

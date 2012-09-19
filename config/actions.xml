@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <actions>
   <action name="createFolder">
-    <parameter name="listWidget"/>
-    <body><![CDATA[this.createDocumentEditor('modules_statictext_folder', listWidget.getSelectedItems()[0].id);]]></body>
+	<parameter name="listWidget"/>
+	<body><![CDATA[this.createDocumentEditor('modules_statictext_folder', listWidget.getSelectedItems()[0].id);]]></body>
   </action>
   <action name="createText">
-    <parameter name="listWidget"/>
-    <body><![CDATA[this.createDocumentEditor('modules_statictext_text', listWidget.getSelectedItems()[0].id);]]></body>
+	<parameter name="listWidget"/>
+	<body><![CDATA[this.createDocumentEditor('modules_statictext_text', listWidget.getSelectedItems()[0].id);]]></body>
   </action>
   <action name="createHtmlcode">
-    <parameter name="listWidget"/>
-    <body><![CDATA[this.createDocumentEditor('modules_statictext_htmlcode', listWidget.getSelectedItems()[0].id);]]></body>
+	<parameter name="listWidget"/>
+	<body><![CDATA[this.createDocumentEditor('modules_statictext_htmlcode', listWidget.getSelectedItems()[0].id);]]></body>
   </action>
 </actions>

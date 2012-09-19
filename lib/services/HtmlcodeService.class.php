@@ -1,27 +1,9 @@
 <?php
 /**
- * statictext_HtmlcodeService
- * @package modules.statictext
+ * @method statictext_HtmlcodeService getInstance()
  */
 class statictext_HtmlcodeService extends f_persistentdocument_DocumentService
 {
-	/**
-	 * @var statictext_HtmlcodeService
-	 */
-	private static $instance;
-
-	/**
-	 * @return statictext_HtmlcodeService
-	 */
-	public static function getInstance()
-	{
-		if (self::$instance === null)
-		{
-			self::$instance = self::getServiceClassInstance(get_class());
-		}
-		return self::$instance;
-	}
-
 	/**
 	 * @return statictext_persistentdocument_htmlcode
 	 */
@@ -38,7 +20,7 @@ class statictext_HtmlcodeService extends f_persistentdocument_DocumentService
 	 */
 	public function createQuery()
 	{
-		return $this->pp->createQuery('modules_statictext/htmlcode');
+		return $this->getPersistentProvider()->createQuery('modules_statictext/htmlcode');
 	}
 	
 	/**
@@ -49,6 +31,6 @@ class statictext_HtmlcodeService extends f_persistentdocument_DocumentService
 	 */
 	public function createStrictQuery()
 	{
-		return $this->pp->createQuery('modules_statictext/htmlcode', false);
+		return $this->getPersistentProvider()->createQuery('modules_statictext/htmlcode', false);
 	}
 }
