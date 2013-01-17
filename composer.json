@@ -1,0 +1,6 @@
+{
+	"name": "rbschange/statictext",
+	"description": "RBS Change Statictext module",
+	"type": "rbschange-compatibility-module",
+	"license":"AGPL-3.0"
+}
